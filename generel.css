@@ -4,11 +4,14 @@
 font-family: 'Hind Madurai', sans-serif;*/
 
 :root {
+  --white: #fbfbfb;
   --dustyBlue: #c6cee4;
   --darkBlue: #5c72b2;
   --burntRed: #c07c65;
-  --lightOrange: #ca927d;
+  --lightOrange: #d0a899;
   --lightPink: #efe7e9;
+  --mediumPink: #e2cecb;
+  --darkPink: #d8aca7;
   --darkBeige: #b49082;
   --beige: #dbcac3;
   --lightBeige: #e6dad5;
@@ -30,6 +33,10 @@ img {
 }
 
 /*************** font *********************/
+
+a {
+  font-family: "Hind Madurai", sans-serif;
+}
 
 h1 {
   font-family: "Candal", sans-serif;
@@ -70,6 +77,8 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*************** .class *********************/
@@ -77,6 +86,10 @@ nav {
 .header_index {
   background-color: var(--dustyBlue);
   padding: 20px;
+}
+.header_text {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .laura {
@@ -87,10 +100,15 @@ nav {
 }
 
 .index_text {
-  position: absolute;
   bottom: 620px;
   font-size: 90%;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(assets/dots_index_web.svg);
+  background-size: 100%;
+  padding-top: 20%;
+  padding-bottom: 55%;
 }
 
 .portfolie_header {
@@ -123,6 +141,12 @@ nav {
   margin-top: 0.5rem;
 }
 
+.h2_t {
+  color: var(--white);
+  font-size: 120%;
+  padding-top: 0.2rem;
+}
+
 .p1 {
   font-size: 90%;
   font-weight: lighter;
@@ -137,17 +161,33 @@ nav {
 /********** .button ***********/
 
 .button1 {
-  position: absolute;
+  display: flex;
+  justify-content: center;
   font-family: "Hind Madurai", sans-serif;
   font-weight: lighter;
   font-size: 110%;
   background-color: var(--darkBlue);
   color: var(--dustyBlue);
-  bottom: 57%;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
   padding: 1rem;
-  border-radius: 4%;
+  border-radius: 7px;
+}
+
+.button2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: lighter;
+  font-size: 110%;
+  background-color: var(--burntRed);
+  color: var(--white);
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  padding: 1rem;
+  border-radius: 7px;
 }
 
 /********** .box ***********/
@@ -184,6 +224,19 @@ nav {
   padding-bottom: 4rem;
   padding-top: 3rem;
   text-align: center;
+}
+
+.box6 {
+  background: var(--mediumPink);
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.box7 {
+  background: var(--darkBlue);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .box1_om {
