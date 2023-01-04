@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Candal&family=Hind+Madurai:wght@300;400;500&display=swap");
+
+/*font-family: 'Candal', sans-serif;
+font-family: 'Hind Madurai', sans-serif;*/
+
+:root {
+  --dustyBlue: #c6cee4;
+  --darkBlue: #5c72b2;
+  --burntRed: #c07c65;
+  --lightOrange: #ca927d;
+  --lightPink: #efe7e9;
+  --darkBeige: #b49082;
+  --beige: #dbcac3;
+  --lightBeige: #e6dad5;
+  --darkYellow: #d9c19d;
+  --mediumYellow: #e7dac3;
+  --lightYellow: #ece1cf;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*************** font *********************/
+
+h1 {
+  font-family: "Candal", sans-serif;
+  color: var(--darkBlue);
+}
+
+h2 {
+  font-family: "Hind Madurai", sans-serif;
+  color: var(--darkBlue);
+  font-weight: lighter;
+}
+
+h3 {
+  font-family: "Candal", sans-serif;
+  color: var(--darkBlue);
+}
+
+p {
+  font-family: "Hind Madurai", sans-serif;
+  color: var(--darkBlue);
+  font-weight: lighter;
+}
+
+/*************** styling *********************/
+
+header {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 110%;
+  font-weight: lighter;
+}
+
+footer {
+  background-color: var(--burntRed);
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+/*************** .class *********************/
+
+.header_index {
+  background-color: var(--dustyBlue);
+  padding: 20px;
+}
+
+.laura {
+  position: absolute;
+  bottom: 575px;
+  font-size: 90%;
+  transform: translateX(-50%);
+}
+
+.index_text {
+  position: absolute;
+  bottom: 620px;
+  font-size: 90%;
+  text-align: center;
+}
+
+.portfolie_header {
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.space1 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  text-align: left;
+}
+
+.space2 {
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+/********** .text ***********/
+.h3_cv {
+  font-size: 150%;
+}
+
+.h2_cv {
+  font-size: 120%;
+  margin-top: 0.5rem;
+}
+
+.p1 {
+  font-size: 90%;
+  font-weight: lighter;
+}
+
+.p2 {
+  font-size: 90%;
+  color: var(--darkBeige);
+  font-weight: lighter;
+}
+
+/********** .button ***********/
+
+.button1 {
+  position: absolute;
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: lighter;
+  font-size: 110%;
+  background-color: var(--darkBlue);
+  color: var(--dustyBlue);
+  bottom: 57%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem;
+  border-radius: 4%;
+}
+
+/********** .box ***********/
+
+.box1 {
+  background: var(--lightPink);
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+.box2 {
+  background: var(--lightOrange);
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.box3 {
+  background: var(--beige);
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.box4 {
+  background: var(--lightYellow);
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.box5 {
+  background: var(--lightPink);
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.box1_om {
+  background: var(--lightPink);
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.box2_om {
+  background: var(--lightBeige);
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.link1 {
+  padding-top: 2rem;
+}
+
+/*************** id# *********************/
+
+/*************** links header *********************/
+a {
+  color: var(--darkBlue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--burntRed);
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/*************** img *********************/
+/* #main_index {
+  background-image: url("assets/dots_index_mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+} */

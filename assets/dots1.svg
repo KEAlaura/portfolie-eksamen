@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 743 506">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-3 {
+        fill: #ebe2e4;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-7 {
+        fill: #c07c65;
+        isolation: isolate;
+        opacity: .6;
+      }
+
+      .cls-8 {
+        opacity: .4;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect id="Rectangle_38-2" data-name="Rectangle 38" class="cls-1" x="0" width="743" height="405"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" x="-8" y="-4.17" width="759" height="413.17"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-1" x="-8" y="-4.17" width="759" height="421.33"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-1" x="-6.53" y="-5.06" width="757.07" height="423.24"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect id="Rectangle_38" data-name="Rectangle 38" class="cls-3" width="743" height="506"/>
+    <rect id="Rectangle_42" data-name="Rectangle 42" class="cls-7" y="405" width="743" height="101"/>
+    <g class="cls-2">
+      <g id="Layer_2-2" data-name="Layer 2">
+        <g class="cls-4">
+          <g id="Group_32" data-name="Group 32">
+            <g class="cls-6">
+              <g id="Group_31" data-name="Group 31">
+                <g id="Layer_2-2" data-name="Layer 2-2">
+                  <g id="Group_29" data-name="Group 29" class="cls-8">
+                    <g class="cls-5">
+                      <g id="Group_30" data-name="Group 30">
+                        <g id="Group_28" data-name="Group 28">
+                          <ellipse id="Ellipse_1" data-name="Ellipse 1" class="cls-7" cx="-8.06" cy="-3.22" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_2" data-name="Ellipse 2" class="cls-7" cx="76.4" cy="-3.22" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_3" data-name="Ellipse 3" class="cls-7" cx="160.86" cy="-3.22" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_4" data-name="Ellipse 4" class="cls-7" cx="245.32" cy="-3.22" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_5" data-name="Ellipse 5" class="cls-7" cx="329.78" cy="-3.22" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_6" data-name="Ellipse 6" class="cls-7" cx="414.24" cy="-3.22" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_7" data-name="Ellipse 7" class="cls-7" cx="498.7" cy="-3.22" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_8" data-name="Ellipse 8" class="cls-7" cx="583.16" cy="-3.22" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_9" data-name="Ellipse 9" class="cls-7" cx="667.62" cy="-3.22" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_10" data-name="Ellipse 10" class="cls-7" cx="752.08" cy="-3.22" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_11" data-name="Ellipse 11" class="cls-7" cx="-8.06" cy="80.72" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_12" data-name="Ellipse 12" class="cls-7" cx="76.4" cy="80.72" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_13" data-name="Ellipse 13" class="cls-7" cx="160.86" cy="80.72" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_14" data-name="Ellipse 14" class="cls-7" cx="245.32" cy="80.72" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_15" data-name="Ellipse 15" class="cls-7" cx="329.78" cy="80.72" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_16" data-name="Ellipse 16" class="cls-7" cx="414.24" cy="80.72" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_17" data-name="Ellipse 17" class="cls-7" cx="498.7" cy="80.72" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_18" data-name="Ellipse 18" class="cls-7" cx="583.16" cy="80.72" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_19" data-name="Ellipse 19" class="cls-7" cx="667.62" cy="80.72" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_20" data-name="Ellipse 20" class="cls-7" cx="752.08" cy="80.72" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_21" data-name="Ellipse 21" class="cls-7" cx="-8.06" cy="164.67" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_22" data-name="Ellipse 22" class="cls-7" cx="76.4" cy="164.67" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_23" data-name="Ellipse 23" class="cls-7" cx="160.86" cy="164.67" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_24" data-name="Ellipse 24" class="cls-7" cx="245.32" cy="164.67" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_25" data-name="Ellipse 25" class="cls-7" cx="329.78" cy="164.67" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_26" data-name="Ellipse 26" class="cls-7" cx="414.24" cy="164.67" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_27" data-name="Ellipse 27" class="cls-7" cx="498.7" cy="164.67" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_28" data-name="Ellipse 28" class="cls-7" cx="583.16" cy="164.67" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_29" data-name="Ellipse 29" class="cls-7" cx="667.62" cy="164.67" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_30" data-name="Ellipse 30" class="cls-7" cx="752.08" cy="164.67" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_31" data-name="Ellipse 31" class="cls-7" cx="-8.06" cy="248.61" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_32" data-name="Ellipse 32" class="cls-7" cx="76.4" cy="248.61" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_33" data-name="Ellipse 33" class="cls-7" cx="160.86" cy="248.61" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_34" data-name="Ellipse 34" class="cls-7" cx="245.32" cy="248.61" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_35" data-name="Ellipse 35" class="cls-7" cx="329.78" cy="248.61" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_36" data-name="Ellipse 36" class="cls-7" cx="414.24" cy="248.61" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_37" data-name="Ellipse 37" class="cls-7" cx="498.7" cy="248.61" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_38" data-name="Ellipse 38" class="cls-7" cx="583.16" cy="248.61" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_39" data-name="Ellipse 39" class="cls-7" cx="667.62" cy="248.61" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_40" data-name="Ellipse 40" class="cls-7" cx="752.08" cy="248.61" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_41" data-name="Ellipse 41" class="cls-7" cx="-8.06" cy="332.55" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_42" data-name="Ellipse 42" class="cls-7" cx="76.4" cy="332.55" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_43" data-name="Ellipse 43" class="cls-7" cx="160.86" cy="332.55" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_44" data-name="Ellipse 44" class="cls-7" cx="245.32" cy="332.55" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_45" data-name="Ellipse 45" class="cls-7" cx="329.78" cy="332.55" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_46" data-name="Ellipse 46" class="cls-7" cx="414.24" cy="332.55" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_47" data-name="Ellipse 47" class="cls-7" cx="498.7" cy="332.55" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_48" data-name="Ellipse 48" class="cls-7" cx="583.16" cy="332.55" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_49" data-name="Ellipse 49" class="cls-7" cx="667.62" cy="332.55" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_50" data-name="Ellipse 50" class="cls-7" cx="752.08" cy="332.55" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_51" data-name="Ellipse 51" class="cls-7" cx="-8.06" cy="416.5" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_52" data-name="Ellipse 52" class="cls-7" cx="76.4" cy="416.5" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_53" data-name="Ellipse 53" class="cls-7" cx="160.86" cy="416.5" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_54" data-name="Ellipse 54" class="cls-7" cx="245.32" cy="416.5" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_55" data-name="Ellipse 55" class="cls-7" cx="329.78" cy="416.5" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_56" data-name="Ellipse 56" class="cls-7" cx="414.24" cy="416.5" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_57" data-name="Ellipse 57" class="cls-7" cx="498.7" cy="416.5" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_58" data-name="Ellipse 58" class="cls-7" cx="583.16" cy="416.5" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_59" data-name="Ellipse 59" class="cls-7" cx="667.62" cy="416.5" rx="42.23" ry="41.97"/>
+                          <ellipse id="Ellipse_60" data-name="Ellipse 60" class="cls-7" cx="752.08" cy="416.5" rx="42.23" ry="41.97"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
