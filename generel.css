@@ -7,14 +7,20 @@ font-family: 'Hind Madurai', sans-serif;*/
   --white: #fbfbfb;
   --dustyBlue: #c6cee4;
   --darkBlue: #5c72b2;
+
   --burntRed: #c07c65;
+  --salmon: #e8d1c7;
   --lightOrange: #d0a899;
+
+  --lightestPink: #f5f0f2;
   --lightPink: #efe7e9;
   --mediumPink: #e2cecb;
   --darkPink: #d8aca7;
+
   --darkBeige: #b49082;
   --beige: #dbcac3;
   --lightBeige: #e6dad5;
+
   --darkYellow: #d9c19d;
   --mediumYellow: #e7dac3;
   --lightYellow: #ece1cf;
@@ -199,14 +205,14 @@ nav {
   text-align: center;
 }
 .box2 {
-  background: var(--lightOrange);
+  background: var(--salmon);
   padding-bottom: 4rem;
   padding-top: 3rem;
   text-align: center;
 }
 
 .box3 {
-  background: var(--beige);
+  background: var(--dustyBlue);
   padding-bottom: 4rem;
   padding-top: 3rem;
   text-align: center;
@@ -220,7 +226,7 @@ nav {
 }
 
 .box5 {
-  background: var(--lightPink);
+  background: var(--lightestPink);
   padding-bottom: 4rem;
   padding-top: 3rem;
   text-align: center;
@@ -274,9 +280,8 @@ a:visited {
 }
 
 /*************** img *********************/
-/* #main_index {
-  background-image: url("assets/dots_index_mobile.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0%;
-} */
+
+.padding1 {
+  padding: 1.5rem;
+  background-color: var(--burntRed);
+}
