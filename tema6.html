@@ -10,22 +10,38 @@
   </head>
   <body>
     <header>
-      <div class="header_index">
-        <nav>
-          <a href="index.html">Hjem</a>
-          <a href="portfolie.html">Portfolie</a>
-          <a href="ommig.html">Om Mig</a>
-        </nav>
-        <h1 class="portfolie_header">Portfolie</h1>
-      </div>
+      <nav class="navbar">
+        <ul class="nav-menu header_web">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Hjem</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="portfolie.html" class="nav-link">Portfolie</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="ommig.html" class="nav-link">Om Mig</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+      <div class="portfolie_header"></div>
+      <h1 class="portfolie_header">Grundlæggende Indhold</h1>
     </header>
     <main>
-      <img src="assets/dots2.svg" alt="" />
+      <div class="two-col">
+        <img src="assets/dots2.svg" alt="" />
 
-      <div class="box1">
-        <p class="p1 space1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum qui corrupti quibusdam placeat quae dolores, aliquid voluptatibus nesciunt veritatis laborum voluptatum? Quasi distinctio magnam repellat, deserunt temporibus nihil laboriosam saepe?</p>
+        <div class="box1">
+          <p class="p1 space1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum qui corrupti quibusdam placeat quae dolores, aliquid voluptatibus nesciunt veritatis laborum voluptatum? Quasi distinctio magnam repellat, deserunt temporibus nihil laboriosam saepe?</p>
+        </div>
       </div>
-
       <div class="box5">
         <h3>Beskrivelse og dokumentation</h3>
 
@@ -35,6 +51,8 @@
       </div>
 
       <div class="box7"></div>
+
+      <script src="script.js"></script>
     </main>
     <footer></footer>
   </body>

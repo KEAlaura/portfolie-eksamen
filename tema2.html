@@ -10,27 +10,42 @@
   </head>
   <body>
     <header>
-      <div class="header_index">
-        <nav>
-          <a href="index.html">Hjem</a>
-          <a href="portfolie.html">Portfolie</a>
-          <a href="ommig.html">Om Mig</a>
-        </nav>
-        <h1 class="portfolie_header">Grundlæggende Web</h1>
-      </div>
+      <nav class="navbar">
+        <ul class="nav-menu header_web">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Hjem</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="portfolie.html" class="nav-link">Portfolie</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="ommig.html" class="nav-link">Om Mig</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+      <div class="portfolie_header"></div>
+      <h1 class="portfolie_header">Grundlæggende Web</h1>
     </header>
     <main>
-      <img src="assets/blad2.svg" alt="" />
+      <div class="two-col">
+        <img src="assets/blad2.svg" alt="" />
 
-      <div class="box1">
-        <p class="p1 space1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum qui corrupti quibusdam placeat quae dolores, aliquid voluptatibus nesciunt veritatis laborum voluptatum? Quasi distinctio magnam repellat, deserunt temporibus nihil laboriosam saepe?</p>
+        <p class="p1 space1 box1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum qui corrupti quibusdam placeat quae dolores, aliquid voluptatibus nesciunt veritatis laborum voluptatum? Quasi distinctio magnam repellat, deserunt temporibus nihil laboriosam saepe?</p>
       </div>
 
       <div class="box6">
         <h3>Studiestarts Prøve</h3>
         <h2 class="h2_t">02.01.02</h2>
         <p class="p1 space1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod iste architecto fugiat blanditiis obcaecati illo corporis quo cum. Velit, similique neque rem illo quia voluptates nobis delectus dolores amet quod.</p>
-        <a class="button2" href="">Website</a>
+        <a class="button2" href="http://lbmstudio.dk/kea/02_web/01_website/website/index.html ">Website</a>
         <a class="button2" href="">XD</a>
       </div>
 
@@ -40,9 +55,11 @@
         <h3>Emnesite</h3>
         <h2 class="h2_t">02.02.01</h2>
         <p class="p1 space1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod iste architecto fugiat blanditiis obcaecati illo corporis quo cum. Velit, similique neque rem illo quia voluptates nobis delectus dolores amet quod.</p>
-        <a class="button2" href="">Website</a>
+        <a class="button2" href="http://lbmstudio.dk/kea/02_web/02_emnesite/emnesite/">Website</a>
         <a class="button2" href="">XD</a>
       </div>
+
+      <script src="script.js"></script>
     </main>
     <footer></footer>
   </body>
