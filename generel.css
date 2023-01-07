@@ -38,6 +38,11 @@ img {
   box-sizing: border-box;
 }
 
+html {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* ----------- fonts ----------- */
 
 a {
@@ -370,12 +375,12 @@ a:visited {
     transition: 0.3s;
   }
 
-  .nav-item {
-    margin: 16px 0;
-  }
-
   .nav-menu.active {
     left: 0;
+  }
+
+  .nav-item {
+    margin: 16px 0;
   }
 }
 
