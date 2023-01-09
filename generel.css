@@ -24,6 +24,18 @@ font-family: 'Hind Madurai', sans-serif;*/
   --darkYellow: #d9c19d;
   --mediumYellow: #e7dac3;
   --lightYellow: #ece1cf;
+
+  /* ----------- button ----------- */
+  --lightBurntRed: #cc9582;
+
+  /* ----------- textbox color ----------- */
+  --lightRose: #f6f1f2;
+  --lightestBeige: #eee6e3;
+
+  /* ----------- img bg color ----------- */
+  --pink: #ebe2e4;
+  --blue: #7484b2;
+  --lightSalmon: #cd9c8c;
 }
 
 img {
@@ -43,6 +55,11 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
+
+body {
+  background-color: var(--lightSalmon);
+}
+
 /* ----------- fonts ----------- */
 
 a {
@@ -112,10 +129,10 @@ li {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(assets/forside-portfolie.svg);
+  background-image: url(assets/forside-portfolie3.svg);
   background-size: 100%;
-  padding-top: 20%;
-  padding-bottom: 55%;
+  padding-top: 30%;
+  padding-bottom: 80%;
 }
 
 .portfolie_header {
@@ -125,28 +142,51 @@ li {
 }
 
 .space1 {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   padding-top: 1rem;
   text-align: left;
 }
 
 .space2 {
   text-align: left;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   padding-bottom: 1.5rem;
 }
 
+.space3 {
+  text-align: left;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.space4 {
+  text-align: left;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1.5rem;
+}
 /* ----- container ----- */
-.two-col-footer {
+.three-col-footer {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 /* --------- text --------- */
-.h3 {
+
+.h1 {
   font-size: 150%;
+  padding-bottom: 2rem;
+}
+
+.h1_index {
+  font-size: 200%;
+}
+
+.h2_index {
+  font-size: 170%;
 }
 
 .h2 {
@@ -155,9 +195,27 @@ li {
 }
 
 .h2_t {
-  color: var(--white);
+  color: var(--lightBurntRed);
   font-size: 120%;
-  padding-top: 0.2rem;
+}
+
+.h2_om {
+  color: var(--lightBurntRed);
+  font-size: 120%;
+  padding-bottom: 1rem;
+}
+
+.h3 {
+  font-size: 150%;
+}
+
+.h3_t {
+  font-size: 120%;
+  padding-bottom: 0.5rem;
+}
+
+.p {
+  font-size: 90%;
 }
 
 .p1 {
@@ -167,7 +225,7 @@ li {
 
 .p2 {
   font-size: 90%;
-  color: var(--darkBeige);
+  color: var(--lightBurntRed);
   font-weight: lighter;
 }
 
@@ -189,18 +247,22 @@ li {
 }
 
 .button2 {
-  display: flex;
+  display: block;
+  width: 40%;
   justify-content: center;
   font-family: "Hind Madurai", sans-serif;
   font-weight: lighter;
   font-size: 110%;
-  background-color: var(--burntRed);
+  background-color: var(--lightBurntRed);
   color: var(--white);
   margin-left: 30%;
   margin-right: 30%;
   margin-top: 5%;
   padding: 1rem;
   border-radius: 7px;
+}
+.button2 :hover {
+  color: var(--burntRed);
 }
 
 .button3 {
@@ -220,61 +282,27 @@ li {
 /* -------- box -------- */
 
 .box1 {
-  background: var(--lightPink);
+  background: var(--lightRose);
   padding-bottom: 4rem;
   padding-top: 3rem;
   text-align: center;
 }
 .box2 {
-  background: var(--salmon);
+  background: var(--lightestBeige);
   padding-bottom: 4rem;
   padding-top: 3rem;
   text-align: center;
-}
-
-.box3 {
-  background: var(--dustyBlue);
-  padding-bottom: 4rem;
-  padding-top: 3rem;
-  text-align: center;
-}
-
-.box4 {
-  background: var(--lightYellow);
-  padding-bottom: 4rem;
-  padding-top: 3rem;
-  text-align: center;
-}
-
-.box5 {
-  background: var(--lightestPink);
-  padding-bottom: 4rem;
-  padding-top: 3rem;
-  text-align: center;
-}
-
-.box6 {
-  background: var(--mediumPink);
-  padding-bottom: 4rem;
-  padding-top: 3rem;
-  text-align: center;
-}
-
-.box7 {
-  background: var(--darkBlue);
-  padding-bottom: 1rem;
-  padding-top: 1rem;
 }
 
 .box1_om {
-  background: var(--lightPink);
+  background: var(--lightRose);
   padding-bottom: 4rem;
   padding-top: 3rem;
   text-align: center;
 }
 
 .box2_om {
-  background: var(--lightBeige);
+  background: var(--lightestBeige);
   padding-bottom: 4rem;
   padding-top: 3rem;
   text-align: center;
@@ -286,10 +314,11 @@ li {
 
 /* -------- #id -------- */
 
-/* -------- links header -------- */
+/* -------- links -------- */
 a {
   color: var(--darkBlue);
   text-decoration: none;
+  font-size: 90%;
 }
 
 a:hover {
@@ -301,16 +330,39 @@ a:visited {
   text-decoration: none;
 }
 
+.a_t:hover {
+  color: var(--darkBlue);
+}
 /* ----------- img ------------ */
 
 .padding1 {
-  padding: 1.5rem;
+  padding: 2rem;
   background-color: var(--burntRed);
 }
 
 .resize {
-  width: 50px;
+  max-width: 50px;
   height: auto;
+}
+
+.t2 {
+  background-color: var(--pink);
+}
+
+.t3 {
+  background-color: var(--burntRed);
+}
+
+.t4 {
+  background-color: var(--blue);
+}
+
+.t5 {
+  background-color: var(--darkYellow);
+}
+
+.t6 {
+  background-color: var(--lightSalmon);
 }
 /* -------- burgermenu -------- */
 .navbar {
@@ -405,8 +457,17 @@ a:visited {
   }
 
   /* -------- text -------- */
-  .h3 {
-    font-size: 170%;
+  .h1 {
+    font-size: 200%;
+    padding-bottom: 2rem;
+  }
+
+  .h1_index {
+    font-size: 300%;
+  }
+
+  .h2_index {
+    font-size: 220%;
   }
 
   .h2 {
@@ -415,28 +476,79 @@ a:visited {
   }
 
   .h2_t {
-    color: var(--white);
+    color: var(--lightBurntRed);
     font-size: 120%;
     padding-top: 0.2rem;
   }
 
+  .h2_om {
+    color: var(--lightBurntRed);
+    font-size: 150%;
+    margin-top: 0.5rem;
+  }
+
+  .h3_t {
+    font-size: 150%;
+    padding-bottom: 0.5rem;
+  }
+
+  .p {
+    font-size: 100%;
+    font-weight: lighter;
+  }
+
   .p1 {
-    font-size: 90%;
+    font-size: 100%;
     font-weight: lighter;
   }
 
   .p2 {
-    font-size: 90%;
-    color: var(--darkBeige);
+    font-size: 100%;
+    color: var(--lightBurntRed);
     font-weight: lighter;
+  }
+
+  /* ----- link  ----- */
+  a {
+    color: var(--darkBlue);
+    text-decoration: none;
+    font-size: 100%;
   }
 
   /* ----- box  ----- */
   .box1_om {
-    background: var(--lightPink);
+    background: var(--lightRose);
     padding-bottom: 9rem;
     padding-top: 3rem;
     text-align: center;
+  }
+
+  /* ----- space  ----- */
+  .space1 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    text-align: left;
+  }
+
+  .space3 {
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .space5 {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  /* ----- space: om mig  ----- */
+  .space2 {
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1.5rem;
   }
 
   /* ----- container ----- */
@@ -445,9 +557,31 @@ a:visited {
     grid-template-columns: 1fr 1fr;
   }
 
-  .two-col-footer {
+  .three-col-footer {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 1fr 1fr 4fr;
+  }
+
+  .two-col_t {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+  }
+
+  /* ----- button ----- */
+  .button2 {
+    display: block;
+    width: 30%;
+    justify-content: center;
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: lighter;
+    font-size: 110%;
+    background-color: var(--lightBurntRed);
+    color: var(--white);
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    padding: 1rem;
+    border-radius: 7px;
   }
 }
 
@@ -466,9 +600,69 @@ a:visited {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .two-col-footer {
+  .three-col-footer {
     display: grid;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 1fr 1fr 1fr 8fr;
+  }
+
+  /* ----------- img ------------ */
+  .padding1 {
+    padding: 2rem;
+    background-color: var(--burntRed);
+  }
+
+  /* -------- text -------- */
+
+  .h1 {
+    font-size: 250%;
+    padding-bottom: 2rem;
+  }
+  .h1_index {
+    font-size: 400%;
+  }
+
+  .h2_index {
+    font-size: 350%;
+  }
+
+  .h3 {
+    font-size: 120%;
+  }
+
+  /* ----- space  ----- */
+  .space1 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 1rem;
+    text-align: left;
+  }
+
+  .space3 {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    padding-top: 1rem;
+    text-align: left;
+  }
+
+  /* ----- space: om mig  ----- */
+  .space4 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+    text-align: left;
+  }
+  .space2 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+    text-align: left;
+  }
+}
+
+@media (min-width: 770px) {
+  /* -------- text -------- */
+  .h3 {
+    font-size: 150%;
   }
 }
 
@@ -483,13 +677,54 @@ a:visited {
   }
 
   /* -------- text -------- */
-  .h3 {
-    font-size: 200%;
+
+  .h1_index {
+    font-size: 500%;
+  }
+
+  .h2_index {
+    font-size: 400%;
+  }
+
+  .h2_t {
+    font-size: 150%;
+    padding-bottom: 0.5rem;
   }
 
   .h2 {
     font-size: 170%;
     margin-top: 0.5rem;
+  }
+  .h3 {
+    font-size: 200%;
+  }
+
+  .h3_t {
+    font-size: 200%;
+    padding-bottom: 0.5rem;
+  }
+
+  .p {
+    font-size: 115%;
+    font-weight: lighter;
+  }
+
+  .p1 {
+    font-size: 115%;
+    font-weight: lighter;
+  }
+
+  .p2 {
+    font-size: 115%;
+    color: var(--lightBurntRed);
+    font-weight: lighter;
+  }
+
+  /* ----- link  ----- */
+  a {
+    color: var(--darkBlue);
+    text-decoration: none;
+    font-size: 115%;
   }
 
   /* ----- container ----- */
@@ -498,8 +733,108 @@ a:visited {
     grid-template-columns: 1.5fr 1fr;
   }
 
-  .two-col-footer {
+  .three-col-footer {
     display: grid;
-    grid-template-columns: 1fr 15fr;
+    grid-template-columns: 1fr 1fr 1fr 10fr;
+  }
+
+  .two-col_t {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+  }
+
+  /* ----------- img ------------ */
+  .padding1 {
+    padding: 2.5rem;
+    background-color: var(--burntRed);
+  }
+
+  /* ----- button ----- */
+  .button2 {
+    display: block;
+    width: 20%;
+    justify-content: center;
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: lighter;
+    font-size: 110%;
+    background-color: var(--lightBurntRed);
+    color: var(--white);
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 5%;
+    padding: 1rem;
+    border-radius: 7px;
+  }
+
+  /* ----- space  ----- */
+  .space1 {
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-top: 1rem;
+    text-align: left;
+  }
+
+  .space3 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 1rem;
+    text-align: left;
+  }
+
+  /* ----- space: om mig  ----- */
+  .space2 {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    padding-top: 1rem;
+    text-align: left;
+  }
+  .space4 {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    padding-top: 1rem;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* ----- space  ----- */
+
+  .space1 {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 1rem;
+    text-align: left;
+  }
+
+  .space3 {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 1rem;
+    text-align: left;
+  }
+
+  /* ----- space: om mig  ----- */
+  .space2 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    text-align: left;
+  }
+
+  .space4 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    text-align: left;
+  }
+
+  .two-col_t {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .three-col-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 15fr;
   }
 }
