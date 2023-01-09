@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 186.91 186.91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c07c65;
+      }
+
+      .cls-2 {
+        fill: #c6cee4;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <rect class="cls-2" width="186.91" height="186.91" rx="8.68" ry="8.68"/>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <g>
+      <rect class="cls-1" x="28.16" y="29.91" width="17.57" height="125.61"/>
+      <rect class="cls-1" x="84.38" y="29.91" width="17.57" height="125.61"/>
+      <rect class="cls-1" x="98.54" y="30.61" width="17.52" height="65.3" rx=".26" ry=".26" transform="translate(-16.42 48.78) rotate(-23.85)"/>
+      <rect class="cls-1" x="140.59" y="29.91" width="17.57" height="125.61"/>
+      <rect class="cls-1" x="56.27" y="110.72" width="17.57" height="73.78" transform="translate(212.67 82.56) rotate(90)"/>
+      <rect class="cls-1" x="126.39" y="30.58" width="17.57" height="65.28" rx=".35" ry=".35" transform="translate(233.24 175.69) rotate(-156.15)"/>
+      <rect class="cls-1" x="112.48" y="71.2" width="17.57" height="25.47"/>
+      <circle class="cls-1" cx="47.05" cy="46.16" r="16.25"/>
+      <circle class="cls-1" cx="51.44" cy="76.03" r="17.13"/>
+      <rect class="cls-1" x="34.31" y="78.22" width="21.96" height="14.93" rx="5.18" ry="5.18"/>
+      <rect class="cls-1" x="29.04" y="29.91" width="21.96" height="14.93" rx="5.18" ry="5.18"/>
+    </g>
+  </g>
+</svg>

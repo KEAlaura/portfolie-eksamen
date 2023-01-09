@@ -82,7 +82,7 @@ header {
 
 footer {
   background-color: var(--burntRed);
-  padding: 2rem;
+  padding: 4rem;
 }
 
 nav {
@@ -112,7 +112,7 @@ li {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(assets/dots_index_web.svg);
+  background-image: url(assets/forside-portfolie.svg);
   background-size: 100%;
   padding-top: 20%;
   padding-bottom: 55%;
@@ -136,6 +136,12 @@ li {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 1.5rem;
+}
+
+/* ----- container ----- */
+.two-col-footer {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
 
 /* --------- text --------- */
@@ -197,7 +203,7 @@ li {
   border-radius: 7px;
 }
 
-.button1 {
+.button3 {
   display: flex;
   justify-content: center;
   font-family: "Hind Madurai", sans-serif;
@@ -302,6 +308,10 @@ a:visited {
   background-color: var(--burntRed);
 }
 
+.resize {
+  width: 50px;
+  height: auto;
+}
 /* -------- burgermenu -------- */
 .navbar {
   position: fixed;
@@ -434,6 +444,11 @@ a:visited {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .two-col-footer {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+  }
 }
 
 @media (min-width: 700px) {
@@ -450,6 +465,10 @@ a:visited {
   .two-col_p {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .two-col-footer {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
   }
 }
 
@@ -477,5 +496,10 @@ a:visited {
   .two-col_p {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
+  }
+
+  .two-col-footer {
+    display: grid;
+    grid-template-columns: 1fr 15fr;
   }
 }
